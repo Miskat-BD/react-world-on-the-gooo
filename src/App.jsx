@@ -8,9 +8,9 @@ function App() {
 
   return (
     <>
-     <Suspense fallback={<h3>Nadir vai loading</h3>}>
-      <Countries countriesPromise={countriesPromise}></Countries>
-     </Suspense>
+      <Suspense fallback={<h3>Nadir vai Loading</h3>}>
+          <Countries countriesPromise={countriesPromise}></Countries>
+      </Suspense>
     </>
   )
 }
